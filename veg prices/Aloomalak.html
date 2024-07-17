@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            ul{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            h1{
+            background-color: lightblue;
+            color: grey;
+
+            }
+            h1::first-letter{
+            font-size: 70px;
+            }
+          
+        ul{
+            color: white;
+        }
+        img{
+            width: 40%;
+        }
+        img{
+            animation-name: infiniteupdown;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+             
+        }
+        @keyframes infiniteupdown {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-40px);
+
+            }
+            100%{
+                transform: translateY(0px);
+            }
+        }
+        body{
+            background-image: url(../back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button:active{
+            color: blue;
+        }
+
+    
+        </style>
+    </head>
+    <body>
+        <h1><center> Aloo Malak</center></h1>
+        <hr>
+        <img src="../vegitemspics/Aloomalak.jpg" alt="">
+        <ul type="square">
+            <li>price = Rs 250</li>
+            <li>gst = 30</li>
+            <li>service charge= Rs 50</li>
+            <li>Delivery Fee = Rs 30</li>
+            <hr>
+            <li>Total = 360</li>
+            <hr>
+            </ul>
+            <a href="tel:9848773324" style="text-decoration: none;color: blueviolet;">For any Support Call <br></a>
+            <a href="mailto:vinodchoudhary" style="text-decoration: none;color: blueviolet;">For any Support Email</a>
+            <hr>
+            <a href="../vegitems1.html" ><center>
+                <button style="height: 50px;width: 100px;font-size: 30px;text-shadow:1px 1px paleturquoise;background-color: gray;">
+                    BACK</button></center></a>
+
+
+    </body>
+</html>

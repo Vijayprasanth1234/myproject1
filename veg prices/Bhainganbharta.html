@@ -1,0 +1,81 @@
+<html>
+    <head>
+    
+        <style>
+          img{
+            width: 400;
+          }
+          ul{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+          }
+          h1{
+            background-color: lightblue;
+            
+            color: grey;
+
+            }
+            h1::first-letter{
+            font-size: 70px;
+            }
+          
+        ul{
+            color: white;
+        }
+        img{
+            width: 30%;
+
+        }
+        img{
+            animation-name: infiniteupdown;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+             
+        }
+        @keyframes infiniteupdown {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-40px);
+
+            }
+            100%{
+                transform: translateY(0px);
+            }
+        }     
+        body{
+            background-image: url(../back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        button:active{
+            color: blue;
+        }
+        </style>
+        </head>
+
+    <body>
+        <h1>
+            <center>Bhaingan Bharta</center> </h1>
+            <hr>
+            <img src="../vegitemspics/resize-1721113637404567036Bhainganbharta.jpg" alt="">
+       
+        <ul type="Square">
+            <li>price = Rs 250</li>
+            <li>gst = Rs 30</li>
+            <li>Service Charge = Rs 50</li>
+            <li>Delivery Fee = Rs 30</li>
+            <hr>
+            <li>Total = 310</li>
+            <hr>
+        </ul>
+        <a href="tel:9849773324"style="text-decoration: none;color: blueviolet;">For any Support call <br>l</a>
+        <a href="mailto:vijayprasanth2999"style="text-decoration: none;color: blueviolet;">For Any Support Email</a>
+        <hr>
+        <a href="../vegitems1.html" ><center>
+            <button style="height: 50px;width: 100px;font-size: 30px;text-shadow:1px 1px paleturquoise;background-color: gray;">
+                BACK</button></center></a>
+    </body>
+</html>
